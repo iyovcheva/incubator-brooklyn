@@ -37,7 +37,7 @@ import brooklyn.entity.basic.EntityLocal;
 import brooklyn.event.Sensor;
 import brooklyn.event.SensorEvent;
 import brooklyn.event.SensorEventListener;
-import brooklyn.policy.basic.AbstractPolicy;
+import org.apache.brooklyn.policy.basic.AbstractPolicy;
 import brooklyn.util.collections.MutableMap;
 import brooklyn.util.javalang.JavaClassNames;
 

@@ -25,7 +25,7 @@ import brooklyn.config.ConfigKey;
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicConfigKey;
-import brooklyn.policy.basic.AbstractPolicy;
+import org.apache.brooklyn.policy.basic.AbstractPolicy;
 import brooklyn.util.flags.SetFromFlag;
 
 import com.google.common.reflect.TypeToken;

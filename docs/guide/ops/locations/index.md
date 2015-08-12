@@ -154,7 +154,7 @@ For more keys and more detail on the keys below, see
   machines with `machineCreateAttempts` (jclouds only). This is useful as an efficient low-level fix
   for those occasions when cloud providers give machines that are dead on arrival.
   You can of course also resolve it at a higher level with a policy such as 
-  {% include java_link.html class_name="ServiceRestarter" package_path="brooklyn/policy/ha" project_subpath="policies" %}.
+  {% include java_link.html class_name="ServiceRestarter" package_path="org/apache/brooklyn/policy/ha" project_subpath="policies" %}.
 
 - If you want to investigate failures, set `destroyOnFailure: false`
   to keep failed VM's around. (You'll have to manually clean them up.)

@@ -119,5 +119,5 @@ TODO
 
 *This section is not yet complete. Feel free to [fork]({{site.path.guide}}/dev/code) the docs and lend a hand.*
 
-Please see the class* ``brooklyn.policy.Policy`` *and implementations.
+Please see the class* ``org.apache.brooklyn.policy.Policy`` *and implementations.
 

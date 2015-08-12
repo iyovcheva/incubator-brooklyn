@@ -34,7 +34,7 @@ import brooklyn.event.feed.http.HttpPollConfig;
 import brooklyn.event.feed.http.HttpValueFunctions;
 import brooklyn.location.Location;
 import brooklyn.location.basic.SshMachineLocation;
-import brooklyn.policy.PolicySpec;
+import org.apache.brooklyn.policy.PolicySpec;
 
 import com.google.common.base.Functions;
 import com.google.common.base.Optional;

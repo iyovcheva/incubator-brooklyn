@@ -24,7 +24,6 @@ import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.apache.brooklyn.catalog.Catalog;
 import org.apache.brooklyn.catalog.CatalogConfig;
 import org.apache.brooklyn.entity.nosql.cassandra.CassandraDatacenter;
@@ -53,14 +52,16 @@ import brooklyn.entity.webapp.tomcat.TomcatServer;
 import brooklyn.event.SensorEvent;
 import brooklyn.event.SensorEventListener;
 import brooklyn.event.basic.DependentConfiguration;
+
 import org.apache.brooklyn.launcher.BrooklynLauncher;
+import org.apache.brooklyn.policy.EnricherSpec;
+import org.apache.brooklyn.policy.PolicySpec;
+
 import brooklyn.location.Location;
 import brooklyn.location.basic.PortRanges;
-import brooklyn.policy.EnricherSpec;
-import brooklyn.policy.PolicySpec;
-import brooklyn.policy.ha.ServiceFailureDetector;
-import brooklyn.policy.ha.ServiceReplacer;
-import brooklyn.policy.ha.ServiceRestarter;
+import org.apache.brooklyn.policy.ha.ServiceFailureDetector;
+import org.apache.brooklyn.policy.ha.ServiceReplacer;
+import org.apache.brooklyn.policy.ha.ServiceRestarter;
 import brooklyn.util.CommandLineUtil;
 import brooklyn.util.ResourceUtils;
 import brooklyn.util.collections.MutableList;

@@ -21,7 +21,7 @@ package org.apache.brooklyn.camp.brooklyn;
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Entity;
 import brooklyn.event.basic.BasicConfigKey;
-import brooklyn.policy.basic.AbstractPolicy;
+import org.apache.brooklyn.policy.basic.AbstractPolicy;
 
 public class TestReferencingPolicy extends AbstractPolicy {
     public static final ConfigKey<Entity> TEST_APPLICATION = new BasicConfigKey<Entity>(Entity.class, "test.reference.app");

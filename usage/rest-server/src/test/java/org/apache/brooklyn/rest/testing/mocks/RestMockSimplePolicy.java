@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
 
 import brooklyn.config.ConfigKey;
 import brooklyn.event.basic.BasicConfigKey;
-import brooklyn.policy.basic.AbstractPolicy;
+import org.apache.brooklyn.policy.basic.AbstractPolicy;
 import brooklyn.util.flags.SetFromFlag;
 
 public class RestMockSimplePolicy extends AbstractPolicy {

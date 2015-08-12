@@ -21,7 +21,7 @@ package brooklyn.osgi.tests;
 
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.config.ConfigKey;
-import brooklyn.policy.basic.AbstractPolicy;
+import org.apache.brooklyn.policy.basic.AbstractPolicy;
 import brooklyn.util.flags.SetFromFlag;
 
 public class SimplePolicy extends AbstractPolicy {

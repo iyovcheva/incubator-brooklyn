@@ -305,7 +305,7 @@ public class HttpLatencyDetector extends AbstractEnricher {
         }
 
         /** returns the detector. note that callers should then add this to the entity,
-         * typically using {@link Entity#addEnricher(brooklyn.policy.Enricher)} */
+         * typically using {@link Entity#addEnricher(org.apache.brooklyn.policy.Enricher)} */
         public HttpLatencyDetector build() {
             return new HttpLatencyDetector(MutableMap.builder()
                     .putIfNotNull(PERIOD, period)

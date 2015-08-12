@@ -45,7 +45,7 @@ import org.apache.brooklyn.catalog.CatalogItem;
 import org.apache.brooklyn.catalog.CatalogItem.CatalogBundle;
 import brooklyn.catalog.internal.CatalogUtils;
 import brooklyn.management.osgi.OsgiStandaloneTest;
-import brooklyn.policy.autoscaling.AutoScalerPolicy;
+import org.apache.brooklyn.policy.autoscaling.AutoScalerPolicy;
 import org.apache.brooklyn.rest.domain.CatalogEntitySummary;
 import org.apache.brooklyn.rest.domain.CatalogItemSummary;
 import org.apache.brooklyn.rest.domain.CatalogLocationSummary;

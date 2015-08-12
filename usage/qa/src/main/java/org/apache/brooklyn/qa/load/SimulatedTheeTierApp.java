@@ -46,7 +46,7 @@ import brooklyn.entity.webapp.WebAppServiceConstants;
 import brooklyn.entity.webapp.jboss.JBoss7Server;
 import org.apache.brooklyn.launcher.BrooklynLauncher;
 import brooklyn.location.basic.PortRanges;
-import brooklyn.policy.autoscaling.AutoScalerPolicy;
+import org.apache.brooklyn.policy.autoscaling.AutoScalerPolicy;
 import brooklyn.util.CommandLineUtil;
 import brooklyn.util.collections.MutableSet;
 
