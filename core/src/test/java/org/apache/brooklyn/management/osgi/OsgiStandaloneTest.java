@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package brooklyn.management.osgi;
+package org.apache.brooklyn.management.osgi;
 
 import java.io.File;
 import java.io.IOException;
@@ -49,8 +49,8 @@ import brooklyn.util.maven.MavenArtifact;
 import brooklyn.util.maven.MavenRetriever;
 import brooklyn.util.net.Urls;
 import brooklyn.util.os.Os;
-import brooklyn.util.osgi.Osgis;
-import brooklyn.util.osgi.Osgis.ManifestHelper;
+import org.apache.brooklyn.util.osgi.Osgis;
+import org.apache.brooklyn.util.osgi.Osgis.ManifestHelper;
 import brooklyn.util.stream.Streams;
 
 /** 

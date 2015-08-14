@@ -60,7 +60,7 @@ import brooklyn.entity.basic.Entities;
 import brooklyn.entity.effector.AddChildrenEffector;
 import brooklyn.entity.effector.Effectors;
 import brooklyn.management.internal.LocalManagementContext;
-import brooklyn.management.osgi.OsgiStandaloneTest;
+import org.apache.brooklyn.management.osgi.OsgiStandaloneTest;
 import brooklyn.util.ResourceUtils;
 import brooklyn.util.collections.MutableMap;
 import brooklyn.util.config.ConfigBag;

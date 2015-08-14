@@ -27,7 +27,7 @@ import org.apache.brooklyn.camp.brooklyn.AbstractYamlTest;
 
 import brooklyn.catalog.CatalogPredicates;
 import brooklyn.event.basic.BasicConfigKey;
-import brooklyn.management.osgi.OsgiStandaloneTest;
+import org.apache.brooklyn.management.osgi.OsgiStandaloneTest;
 
 import org.apache.brooklyn.policy.Policy;
 import org.apache.brooklyn.test.TestResourceUnavailableException;

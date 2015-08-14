@@ -32,7 +32,7 @@ import java.io.StringReader;
 import brooklyn.config.BrooklynProperties;
 import brooklyn.config.BrooklynServerConfig;
 import brooklyn.management.internal.LocalManagementContext;
-import brooklyn.management.osgi.OsgiTestResources;
+import org.apache.brooklyn.management.osgi.OsgiTestResources;
 import brooklyn.util.ResourceUtils;
 import brooklyn.util.exceptions.Exceptions;
 import brooklyn.util.os.Os;

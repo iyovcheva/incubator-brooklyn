@@ -30,7 +30,7 @@ import brooklyn.catalog.internal.CatalogTestUtils;
 import brooklyn.entity.group.DynamicCluster;
 import brooklyn.entity.rebind.transformer.CompoundTransformer;
 import brooklyn.management.internal.LocalManagementContext;
-import brooklyn.management.osgi.OsgiVersionMoreEntityTest;
+import org.apache.brooklyn.management.osgi.OsgiVersionMoreEntityTest;
 import brooklyn.util.collections.MutableList;
 
 public class ActivePartialRebindVersionTest extends RebindTestFixtureWithApp {

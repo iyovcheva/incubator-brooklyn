@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package brooklyn.util.osgi;
+package org.apache.brooklyn.util.osgi;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

@@ -16,23 +16,22 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package brooklyn.util.osgi;
+package org.apache.brooklyn.util.osgi;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 
 import org.osgi.framework.Version;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import brooklyn.util.osgi.Osgis.VersionedName;
 
 public class OsgisTest {
 
     @Test
     public void testParseOsgiIdentifier() throws Exception {
-        assertEquals(Osgis.parseOsgiIdentifier("a.b").get(), new VersionedName("a.b", null));
-        assertEquals(Osgis.parseOsgiIdentifier("a.b:0.1.2").get(), new VersionedName("a.b", Version.parseVersion("0.1.2")));
-        assertEquals(Osgis.parseOsgiIdentifier("a.b:0.0.0.SNAPSHOT").get(), new VersionedName("a.b", Version.parseVersion("0.0.0.SNAPSHOT")));
+        Assert.assertEquals(Osgis.parseOsgiIdentifier("a.b").get(), new Osgis.VersionedName("a.b", null));
+        Assert.assertEquals(Osgis.parseOsgiIdentifier("a.b:0.1.2").get(), new Osgis.VersionedName("a.b", Version.parseVersion("0.1.2")));
+        Assert.assertEquals(Osgis.parseOsgiIdentifier("a.b:0.0.0.SNAPSHOT").get(), new Osgis.VersionedName("a.b", Version.parseVersion("0.0.0.SNAPSHOT")));
         assertFalse(Osgis.parseOsgiIdentifier("a.b:0.notanumber.2").isPresent()); // invalid version
         assertFalse(Osgis.parseOsgiIdentifier("a.b:0.1.2:3.4.5").isPresent());    // too many colons
         assertFalse(Osgis.parseOsgiIdentifier("a.b:0.0.0_SNAPSHOT").isPresent()); // invalid version

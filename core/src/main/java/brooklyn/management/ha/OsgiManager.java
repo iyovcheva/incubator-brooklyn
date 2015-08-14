@@ -49,13 +49,12 @@ import brooklyn.util.exceptions.Exceptions;
 import brooklyn.util.guava.Maybe;
 import brooklyn.util.os.Os;
 import brooklyn.util.os.Os.DeletionResult;
-import brooklyn.util.osgi.Osgis;
-import brooklyn.util.osgi.Osgis.BundleFinder;
+import org.apache.brooklyn.util.osgi.Osgis;
+import org.apache.brooklyn.util.osgi.Osgis.BundleFinder;
 import brooklyn.util.repeat.Repeater;
 import brooklyn.util.text.Strings;
 import brooklyn.util.time.Duration;
 
-import com.google.common.base.Throwables;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 

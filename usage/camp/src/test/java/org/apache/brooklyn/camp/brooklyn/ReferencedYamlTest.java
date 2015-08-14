@@ -27,7 +27,7 @@ import org.testng.annotations.Test;
 
 import brooklyn.entity.basic.BasicApplication;
 import brooklyn.entity.basic.BasicEntity;
-import brooklyn.management.osgi.OsgiStandaloneTest;
+import org.apache.brooklyn.management.osgi.OsgiStandaloneTest;
 
 import com.google.common.collect.Iterables;
 

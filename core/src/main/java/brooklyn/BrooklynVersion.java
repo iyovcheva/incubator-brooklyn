@@ -48,8 +48,8 @@ import org.apache.brooklyn.management.ManagementContext;
 import brooklyn.management.classloading.OsgiBrooklynClassLoadingContext;
 import brooklyn.util.ResourceUtils;
 import brooklyn.util.exceptions.Exceptions;
-import brooklyn.util.osgi.Osgis;
-import brooklyn.util.osgi.Osgis.ManifestHelper;
+import org.apache.brooklyn.util.osgi.Osgis;
+import org.apache.brooklyn.util.osgi.Osgis.ManifestHelper;
 import brooklyn.util.stream.Streams;
 import brooklyn.util.text.Strings;
 

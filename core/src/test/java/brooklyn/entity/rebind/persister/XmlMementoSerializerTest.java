@@ -30,7 +30,7 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-import brooklyn.management.osgi.OsgiTestResources;
+import org.apache.brooklyn.management.osgi.OsgiTestResources;
 
 import org.apache.brooklyn.management.ManagementContext;
 import org.apache.brooklyn.mementos.BrooklynMementoPersister.LookupContext;
@@ -58,7 +58,7 @@ import brooklyn.entity.basic.Entities;
 import brooklyn.entity.group.DynamicCluster;
 import brooklyn.location.Location;
 import brooklyn.location.LocationSpec;
-import brooklyn.management.osgi.OsgiVersionMoreEntityTest;
+import org.apache.brooklyn.management.osgi.OsgiVersionMoreEntityTest;
 import brooklyn.util.collections.MutableList;
 import brooklyn.util.collections.MutableMap;
 import brooklyn.util.collections.MutableSet;

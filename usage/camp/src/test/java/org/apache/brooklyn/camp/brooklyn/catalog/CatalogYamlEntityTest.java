@@ -35,8 +35,8 @@ import org.apache.brooklyn.camp.brooklyn.AbstractYamlTest;
 
 import brooklyn.catalog.internal.CatalogUtils;
 import brooklyn.entity.basic.BasicEntity;
-import brooklyn.management.osgi.OsgiStandaloneTest;
-import brooklyn.management.osgi.OsgiTestResources;
+import org.apache.brooklyn.management.osgi.OsgiStandaloneTest;
+import org.apache.brooklyn.management.osgi.OsgiTestResources;
 
 import org.apache.brooklyn.test.TestResourceUnavailableException;
 import org.apache.brooklyn.test.entity.TestEntity;

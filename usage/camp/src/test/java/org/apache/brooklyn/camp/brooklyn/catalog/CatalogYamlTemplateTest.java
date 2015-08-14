@@ -28,8 +28,8 @@ import org.apache.brooklyn.api.catalog.CatalogItem;
 import org.apache.brooklyn.api.catalog.CatalogItem.CatalogItemType;
 import org.apache.brooklyn.camp.brooklyn.AbstractYamlTest;
 
-import brooklyn.management.osgi.OsgiStandaloneTest;
-import brooklyn.management.osgi.OsgiTestResources;
+import org.apache.brooklyn.management.osgi.OsgiStandaloneTest;
+import org.apache.brooklyn.management.osgi.OsgiTestResources;
 
 import org.apache.brooklyn.test.TestResourceUnavailableException;
 

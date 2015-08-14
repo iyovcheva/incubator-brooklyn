@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package brooklyn.management.osgi;
+package org.apache.brooklyn.management.osgi;
 
 import java.io.File;
 import java.io.IOException;
@@ -57,7 +57,7 @@ import org.apache.brooklyn.test.entity.TestApplication;
 
 import brooklyn.util.guava.Maybe;
 import brooklyn.util.os.Os;
-import brooklyn.util.osgi.Osgis;
+import org.apache.brooklyn.util.osgi.Osgis;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableMap;
